@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanford Performing Arts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            text-transform: uppercase;
+            font-size: 2.2em;
+            color: #006400;
+            font-weight: bold;
+        }
+        .header .edition {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .subheader {
+            font-size: 1.0em;
+            margin: 10px 0;
+        }
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+        .content img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .content .text {
+            flex: 1;
+        }
+        .calendar {
+            margin-left: 20px;
+            width: 30%;
+        }
+        .calendar h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .calendar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .calendar li {
+            margin-bottom: 10px;
+        }
+        .calendar p.outset {
+            border-style: outset;
+            border-right-style: hidden;
+            border-width: 2px;
+            padding: 5px; 
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>트럼프 "많은 국가 관세 면제"…최악 지났다는 월가</h1>
+        <div class="edition">글로벌 마켓</div>
+    </div>
+    <div class="subheader">2025.03.25</div>
+    <div class="content">
+        <img src="hw2-4.jpg" alt="global_market">
+        <div class="text">
+            <p>미국 뉴욕 증시가 도널드 트럼프 대통령의 관세 정책 완화 시그널에 강한 반등세를 보였다. 트럼프 대통령이 오는 4월 2일 '해방의 날(Liberation Day)'로 명명한 관세 발표 당일에서 예상보다 부과 수위를 낮출 수 있다는 발언을 내놓으면서 기술주를 중심으로 위험자산 가격이 일제히 상승했다.</p>
+            <p>현지시간 24일 뉴욕증권거래소(NYSE)에서 S&P500 지수는 1.76%, 100.01포인트 오른 5,767.57, 나스닥 종합지수는 2.27%, 404.54포인트 뛴 1만 8,188.59를 기록했다. 기술주 가운데 테슬라는 약 11%이상 급등하며 지난해 11월 대선 직후 이후 최대 상승폭을 기록했다. 다우존스 산업 평균지수는 597.97포인트, 1.42% 상승한 4만 2,583.32에 거래를 마쳤다.</p>
+        </div>
+        <div class="calendar">
+            <h3>Calendar</h3>
+            <!-- <ul>과 <li>를 <p> 태그로 변경 -->
+            <p class="outset"><strong>원유재고</strong></p>
+            <p class="outset"><strong>GDP(QoQ) (4분기)</strong></p>
+            <p class="outset"><strong>신규 실업수당청구건수</strong></p>
+            <p class="outset"><strong>근원 개인소비지출물가 (4분기)</strong></p>
+        </div>
+    </div>
+</body>
+</html>
